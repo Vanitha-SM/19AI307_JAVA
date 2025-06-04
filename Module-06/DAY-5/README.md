@@ -1,3 +1,4 @@
+
 # Ex.No:6(E)  MULTIPLE INHERITANCE
 
 ## AIM:
@@ -21,26 +22,68 @@ b.	Call the methods to get input and display results.
 
 
 ## PROGRAM:
- ```
-/*
+```
+
+/\*
 Program to implement a Multiple Inheritance
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: VANITHA S
+RegisterNumber: 212222100057
+\*/
+
 ```
 
 ## Sourcecode.java:
+```
 
+class Student
+{
+Student()
+{
+System.out.println("Student Class");
+}
+}
 
+class Marks extends Student
+{
+Marks()
+{
+System.out.println("Marks Class");
+}
+}
 
+class Total extends Marks
+{
+Total()
+{
+System.out.println("Total Class");
+}
+}
 
+class Average extends Total
+{
+Average()
+{
+System.out.println("Average Class");
+}
+}
 
+public class Main
+{
+public static void main(String args\[])
+{
+Average obj = new Average();
+
+```
+}
+
+}
 
 
 ## OUTPUT:
 
-
+![image](https://github.com/user-attachments/assets/cd1a7453-cae8-4e8d-a484-bc6a7f1376b6)
 
 ## RESULT:
 
 Thus, the java program demonstrates multiple inheritance using interfaces and successfully displays the mark sheet of a student by collecting personal and academic data. 
+
